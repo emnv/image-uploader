@@ -28,8 +28,8 @@ const Upload = () => {
                 <div className="card-content">
                     <div className="content">
                         <form onSubmit={uploadFile} encType="multipart/form-data">
-                            <div class="field has-addons">
-                                <div class="control">
+                            <div className="field has-addons">
+                                <div className="control">
                                     <div className="file has-name">
                                         <label className="file-label">
                                             <input
@@ -51,12 +51,12 @@ const Upload = () => {
                                             </span>
                                         </label>
                                     </div>                        </div>
-                                <div class="control">
+                                <div className="control">
                                     <button type="submit" className='button is-primary'>Upload</button>
                                 </div>
                             </div>
 
-                            {message && <div class="notification is-primary">{message}</div>}
+                            {message && <div className="notification is-primary">{message}</div>}
                         </form>
                     </div>
                 </div>
